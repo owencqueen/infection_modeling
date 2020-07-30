@@ -10,4 +10,4 @@ delta = 0.01
 
 model = infection_model(m = m, n = n, k = k, tau = tau, delta = delta)
 print(model.run_simulation(True))
-model.plot_data(save = True, show = True)
+model.plot_data(plot_title = "Infection Model with Mobility", save = True, show = True)
