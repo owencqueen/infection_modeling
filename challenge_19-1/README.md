@@ -17,3 +17,6 @@ This class contains functions that run a Monte Carlo simulation on the patient g
 In this portion of the project, I only generated one plot as the prompt directed. This plot is shown below, and in order to see the movie (sequence of patient graphs), one can run the script **[run_challenge_19-1.py](https://github.com/owencqueen/infection_modeling/blob/master/challenge_19-1/run_challenge_19-1.py)**.
 
 ![Challenge 19.1 Plot](https://github.com/owencqueen/infection_modeling/blob/master/challenge_19-1/infection_simulation_19-1.png)
+
+## Running the Code
+Running this script requires no additional actions. This script will output a plot of the counts of Infected, Recovered, and Susceptible patients to the screen (with mobility included).
