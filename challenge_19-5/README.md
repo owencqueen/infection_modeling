@@ -52,7 +52,11 @@ A value of nu = 0.0287 would contain the outbreak to 20% of the population of pa
 ### Examining nu Values for other Containment Levels
 After the above finding, I decided to examine the difference in nu values needed if we were to contain the outbreak to differnt percentages. My findings are shown in the plot below:
 
-## Discussion
-In terms of practical meaning, this finding is meaningful for public health officials. As we are seeing during the race for a vaccine for COVID-19, mass-producing a virus is a very expensive task. Therefore, when we are producing a virus, we want to maximize our resources, allocating enough resources for both vaccine production but also production for other medical equipment such as ventillators to treat the infected patients.
+![Varying nu for containment](https://github.com/owencqueen/infection_modeling/blob/master/challenge_19-5/plots/nu_for_different_cont_pct.png)
 
-What this means mathematically is that we want to find the point at which our derivative for persons infected vs. vaccination rate approaches zero.
+## Discussion
+We can clearly see that the optimal nu value decreases in a nonlinear fashion as the percent containment increases. An increase in nu value at low containment percentages, such as in the range [0.03,0.075], results in a large small decrease in percent containment for the outbreak. This trend was predicted in the results from Challenge 19.4, but the plot above shows concrete proof of this phenomenon. 
+
+In terms of practical meaning, this finding is significant for public health officials. As we are seeing during the race for a vaccine for COVID-19, mass-producing a virus is a very expensive task. Therefore, when we are producing a vaccine, we want to maximize our resources, allocating enough resources for both vaccine production but also production for other medical equipment such as ventillators to treat the infected patients. 
+
+In order to maximize our strategy mathematically, we want to find the point at which our derivative for persons infected vs. vaccination rate approaches zero. Therfore, we could pick an optimal nu value that is sufficiently small enough to be practical in terms of our capacity to produce a vaccine. A good nu value for this would be when this curve starts to flatten out, possibly in the range [0.075, 0.1]. 
