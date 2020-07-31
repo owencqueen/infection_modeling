@@ -15,7 +15,10 @@ The plot generated from the challenge was very similar to the plot from Challeng
 
 ![Mobility Plot](https://github.com/owencqueen/infection_modeling/blob/master/challenge_19-2/model_with_mobility.png)
 
-## Testing Uniformity of Random Numbers
+### Testing Uniformity of Random Numbers
 In order to preserve the probabilities of state changes in this model, we need to be sure that our random numbers are drawn from a uniform distribution. For this project, I decided to verify the uniformity of choosing my random indices in the function `rand_ind1` (used in the mobility procedure). The plot below shows the result of running my method for 50,000 trials. We can see that our frequency of choosing indices is relatively uniform, so the conclusion was made that my method for deterimining random indices was based on uniform probability distribution.
 
 ![Uniform Indices](https://github.com/owencqueen/infection_modeling/blob/master/challenge_19-2/plot_uniformity_test.png)
+
+## Run the Script
+Running this script requires no additional actions. This script will output a plot of the counts of Infected, Recovered, and Susceptible patients to the screen.
