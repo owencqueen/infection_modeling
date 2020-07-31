@@ -13,3 +13,6 @@ I displayed the data from these runs in histograms similar to those provided as 
 
 ## Discussion
 We can clearly see that a larger ν value decreases the spread of our infectious disease in the model. However, we can see that the reduction in mean proportion of infected patients is nonlinear as ν decreases. This finding will be discussed more in the next challenge. 
+
+## Running the Code
+Running this script requires no additional actions. This script will output histograms of total infected individuals for different specified values of nu.
