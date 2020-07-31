@@ -20,3 +20,6 @@ In order to run the python scripts, execute the following command on the command
 >>> python3 challenge_19-<challenge_number>/run_challenge_19-<challenge_number>.py
 ```
 Make sure to check the individual README's for other actions that may be needed in order to run the scripts.
+
+## Documentation
+The `infection_model.py` module has been documented with docstrings in each function. See this file for a documentation of the functions within the class.
