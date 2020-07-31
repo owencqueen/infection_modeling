@@ -34,3 +34,6 @@ One metric we could use to measure the extent of the outbreak is the final numbe
 
 These results are what we would intuitively expect from the model. The introduction of a vaccination and holding the patients stationary seemed to be effective in limiting the outbreak. These are common techniques used by public health officials during infectious disease outbreaks. On the surface, these models seem to validate these stratgies.
 
+## Running the Code
+Running this script requires no additional actions. This script will output a plot of the counts of Infected, Recovered, Susceptible, and Vaccinated patients to the screen.
+
