@@ -13,7 +13,3 @@ I displayed the data from these runs in histograms similar to those provided as 
 
 ## Discussion
 We can clearly see that a larger ν value decreases the spread of our infectious disease in the model. However,  we can see that the reduction in mean proportion of infected patients is nonlinear as ν decreases. This finding will be discussed more in the next challenge. 
-
-In terms of practical meaning, this finding is meaningful for public health officials. As we are seeing during the race for a vaccine for COVID-19, mass-producing a virus is a very expensive task. Therefore, when we are producing a virus, we want to maximize our resources, allocating enough resources for both vaccine production but also production for other medical equipment such as ventillators to treat the infected patients. 
-
-What this means mathematically is that we want to find the point at which our derivative for persons infected vs. vaccination rate approaches zero.
