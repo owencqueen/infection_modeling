@@ -14,3 +14,9 @@ This project is broken down into five sub-repos, one for each section of the wri
 
 ## Running the code
 Each sub-repo is setup to include only the scripts, modules required for that challenge, and the resulting plots generated from the analysis. The scripts are contained in files with the name `run_challenge_19-<challenge_number>.py` where `<challenge_number>` corresponds to the section of challenge 19 in the writeup. The module `infection_model.py` contains all of the code needed to run the scripts (other than local modules). 
+
+In order to run the python scripts, execute the following command on the command line:
+```
+>>> python3 challenge_19-<challenge_number>/run_challenge_19-<challenge_number>.py
+```
+Make sure to check the individual README's for other actions that may be needed in order to run the scripts.
