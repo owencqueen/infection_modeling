@@ -1,4 +1,5 @@
 # Script to run Challenge 19-4
+#   Note: Remember to move infection_model.py into this directory
 
 from infection_model import infection_model
 

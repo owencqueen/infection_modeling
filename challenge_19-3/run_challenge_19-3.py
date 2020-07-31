@@ -1,4 +1,6 @@
 # Script to run Challenge 19-3
+#   Note: Make sure to include infection_model.py file in this directory
+
 from infection_model import infection_model
 
 m = 10
