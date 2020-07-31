@@ -61,3 +61,27 @@ In terms of practical meaning, this finding is significant for public health off
 
 ### Herd Immunity
 The metric that we have calculated in this challenge could be considered to be the vaccine percentage needed to achieve some level of [herd immunity](https://www.jhsph.edu/covid-19/articles/achieving-herd-immunity-with-covid19.html). Herd immunity is an epidemiological phenomenon that is observed when a sufficient percentage of a population is vaccinated or immune to an infectious disease. What happens at high levels of vaccination is that vaccinated individuals effectively block non-vaccinated individuals from contracting the disease. This phenomenon can be observed in the above graphic, where a vaccination rate of 0.075 results in only 10% of the population contracting the disease. Therefore, a model such as this one could be used to calculate these herd immunity statistics, as we have effectively done in finding our optimal nu for certain percentages of containment.
+
+## Running the Code
+Running this script requires some additional actions on the part of the user.
+
+1. Un-comment the include statements in `infection_model.py`
+  - In addition to moving `infection_model.py` into the `challenge_19-5` directory, the user needs to remove the comments over lines 12 and 13, which are (as shown in the unedited `infection_model.py` file):
+  ```
+  # Uncomment these import statements if running Challenge 19.5
+  #from polyFit import * 
+  #from newtonRaphson import *
+  ```
+  - This is required to run any of the scripts for Challenge 19.5
+  - Once the user is done running this challenge, they should comment these lines back
+  
+2. Un-comment the desired block of code in the `run_challenge_19-5.py` file
+  - There are two main blocks of code in the script file:
+   
+   **Block #1**: Runs the model and finds the optimal nu value at a percent containment of 0.2
+   
+   **Block #2**: Runs the model and plots the differing nu values needed for different containment levels
+   
+  - The user must choose which block to un-comment by removing the block quote (`''' '''` in Python) around the block of code
+  
+Only after completing these two steps can the user then run this script.
