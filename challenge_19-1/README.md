@@ -8,6 +8,9 @@ If possible, display the epidemic as a movie. To do this, form a matrix of dimen
 Since this was the first challenge, I needed to construct my model before I could obtain any results. I decided to take a very object-oriented approach to the model construction, utilizing a class in Python to store all of the parameters for the model as well as functions that would run our simulations. 
 
 ### Patient Graph
+
+![Graph of People](https://github.com/owencqueen/infection_modeling/blob/master/imgs/grid_of_people.jpg)
+
 In order to represent my patient, I chose to use a Numpy array instead of constructing a traditional graph. Since our graph contains obvious symmetry and patterns (all adjacent patients are connected to each other), then a graph representation would have introduced unnecessary complexity and storage. 
 
 ### Monte Carlo Simulation
